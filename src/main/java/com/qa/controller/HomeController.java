@@ -8,6 +8,6 @@ public class HomeController {
 
     @RequestMapping("/") //this is for specifying the url that will then trigger this method.
     public String home(){
-        return "Hiya Everybody";
+        return "This is probably the slowest demo in existence";
     }
 }
